@@ -19,7 +19,7 @@ As this is a rudimentary implementation it will not take into account whether a 
 
 ## Usage
 
->cm [<config flag>[ <file>]+]+
+>cm ((config flag)( (file))+)+
 
 
 Note: wildcards are not supported!
@@ -30,15 +30,15 @@ cm doesn't come with prebuild flags. Instead flags are defined in the config fil
 
 The configuration file is built as follows:
 
-><root of copy location>
-><root of move location>
-><flag definition 1>
-><flag definition 2>
+>(root of copy location)  
+>(root of move location)  
+>(flag definition 2)  
+>(flag definition 1)  
 >...
 
 A flag definition is build as follows:
 
-><flag>;<copy relative path>;<move relative path>
+>(flag);(copy relative path);(move relative path)
 
 ## Example for a configuration file
 
