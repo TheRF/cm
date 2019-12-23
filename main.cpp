@@ -18,7 +18,7 @@ int main(int argc, char* argv[]) {
     return 1;
   }
 
-  std::cout << "HOME: " << sPath << '\n';
+  sPath.append("/");
 
   //figure out which paths are available
   Params appParams(sPath.append(CONFFILE));
