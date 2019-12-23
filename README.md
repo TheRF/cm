@@ -42,9 +42,9 @@ A flag definition is build as follows:
 
 ## Example for a configuration file
 
->/home/user/
->/run/media/user/backup
->-doc;docs/;docs/
+>/home/user/  
+>/run/media/user/backup  
+>-doc;docs/;docs/  
 >-pic;pictures/;public/pictures/
 
 ## Example using the configuration file
