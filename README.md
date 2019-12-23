@@ -19,7 +19,7 @@ As this is a rudimentary implementation it will not take into account whether a 
 
 ## Usage
 
-cm [<config flag>[ <file>]+]+
+>cm [<config flag>[ <file>]+]+
 
 
 Note: wildcards are not supported!
