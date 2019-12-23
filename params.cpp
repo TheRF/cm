@@ -32,7 +32,6 @@ Params::Params(std::string sFile) {
 
       vRegisteredPaths.push_back(pp);
     }
-
   }
 }
 
