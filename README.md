@@ -26,7 +26,7 @@ Note: wildcards are not supported!
 
 ## Configuration
 
-cm doesn't come with prebuild flags. Instead flags are defined in the config file *.cm* located in the HOME directory.
+cm doesn't come with prebuild flags. Instead flags are defined in the config file *cm* located in the $HOME/.config/ directory.
 
 The configuration file is built as follows:
 
