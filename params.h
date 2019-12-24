@@ -5,11 +5,9 @@
 #include <vector>
 #include <filesystem>
 
-const std::string CONFFILE = ".cm";
+const std::string CONFFILE = "cm";
 
 //config file key words
-const std::string CONF_ORIG  = ".cm";
-const std::string CONF_BAK   = ".cm";
 const char CONF_DELIM = ';';
 
 
